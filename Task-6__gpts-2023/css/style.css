@@ -21,6 +21,31 @@ i {
 
 .left {
     float: left;
+    
+}
+
+
+.drop_box{
+    
+    width: 12%;
+    height: 60px;
+    padding: 10px 0;
+    text-align: center;
+    
+    margin-left: 35px;
+    display: none;
+    height: 110px;
+    
+    transition: 0.4s;
+}
+.left:hover .drop_box{
+    display: block;
+}
+
+
+
+.drop_box .currency hr{
+    color: black;
 }
 
 .right {
@@ -41,11 +66,16 @@ i {
 
 /* ===================================================== */
 
+
+
+
+/* ===================================================== */
+
 .navbar {
     background-color: #252525;
     padding: 20px 0;
     display: inline-flex;
-    
+
     width: 100%;
 }
 
@@ -156,13 +186,13 @@ i {
 
 /* ===================================================== */
 
-.boxes_1{
+.boxes_1 {
     width: 100%;
     padding: 60px 0;
     margin-bottom: 40px;
 }
 
-.box_1{
+.box_1 {
     width: 30%;
     border: 1px solid #252525;
     padding: 3px 50px;
@@ -174,13 +204,13 @@ i {
     transition: 0.4s;
 }
 
-.box_1:hover{
+.box_1:hover {
     background-color: #C39B73;
     border: 1px solid #C39B73;
     padding: 20px 50px;
 }
 
-.box_1 .b_left{
+.box_1 .b_left {
     float: left;
     font-size: 30px;
     transition: 0.4s;
@@ -190,12 +220,155 @@ i {
     color: #252525;
 } */
 
-.box_1 .b_left i{
+.box_1 .b_left i {
     color: #C39B73;
 }
 
-.box_1 .b_right{
+.box_1 .b_right {
     float: right;
     color: white;
     cursor: text;
+}
+
+/* ===================================================== */
+
+
+#section_4 {
+    margin: auto;
+    text-align: center;
+    margin: 30px 0 70px 0;
+}
+
+#section_4 h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#section_4 img {
+    width: 200px;
+}
+
+/* ===================================================== */
+
+
+
+#section_5 .boxes_2{
+    display: flex;
+    justify-content: space-between;
+    width: 24%;
+    
+    text-align: center;
+    
+    
+}
+
+
+
+
+#section_5 .boxes_2 span{
+    display: block;
+}
+
+#section_5 .boxes_2 i{
+    color: #C39B73;
+}
+
+.f_b_text{
+    text-align: center;
+    
+   
+}
+
+.three_text{
+    padding: 30px 0 20px 0;
+}
+
+.three_text span{
+    color: #C39B73;
+}
+
+.f_b_text i{
+    padding: 10px 0;
+}
+
+#section_5 .boxes_2 .fifth_box{
+    background-color: #F5F5F5;
+   
+    position: relative;
+    margin: 0 15px;
+    cursor: pointer;
+    
+}
+
+.add_to_card_p{
+    background-color: #C39B73;
+    color: white;
+}
+
+.add_to_card_p i{
+    color: white !important;
+    padding: 15px 0;
+}
+
+.img_1{
+    position: relative;
+}
+
+#section_5 .new{
+    border: 1px solid #C39B73;
+    padding: 3px 7px;
+    background-color: #C39B73;
+    width: 70px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    position: absolute;
+
+    top: 165%;
+    left: 6%;
+    /* top: 10%; */
+    /* bottom: 3%; */
+    /* left: 5%; */
+}
+
+#section_5 .new_2{
+    border: 1px solid #C39B73;
+    padding: 3px 7px;
+    background-color: #C39B73;
+    width: 70px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    position: absolute;
+
+    top: 165%;
+    left: 30%;
+}
+
+#section_5 .new_3{
+    border: 1px solid #C39B73;
+    padding: 3px 7px;
+    background-color: #C39B73;
+    width: 70px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    position: absolute;
+
+    top: 165%;
+    left: 54%;
+}
+
+#section_5 .new_4{
+    border: 1px solid #C39B73;
+    padding: 3px 7px;
+    background-color: #C39B73;
+    width: 70px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    position: absolute;
+
+    top: 165%;
+    left: 77.5%;
 }
